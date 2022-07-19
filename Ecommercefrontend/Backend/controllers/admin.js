@@ -1,6 +1,9 @@
+
 const Product = require('../models/product');
 // const products = [];
 const rootdir = require('../util/path');
+
+
 const path = require('path');
   exports.getAddProduct = (req, res, next) => {
   res.render('admin/edit-product', {
@@ -138,6 +141,8 @@ exports.getContact=(req, res, next) => {
     res.sendFile(path.join(rootdir, 'views', 'success.html'));
   };
   
+
+
 
 
 
