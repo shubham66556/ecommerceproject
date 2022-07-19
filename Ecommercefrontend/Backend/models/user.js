@@ -12,3 +12,4 @@ email :  Sequelize.STRING
 });
 
 module.exports = User;
+

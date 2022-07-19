@@ -5,3 +5,4 @@ const sequelize= new Sequelize('node-complete','root','Bharuchcity6@',{
 
     module.exports = sequelize;
     
+    

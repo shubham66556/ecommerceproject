@@ -14,6 +14,7 @@ const path = require('path');
   });
 };
 
+
 exports.postAddProduct = (req, res, next) => {
   const title = req.body.title;
   const imageUrl = req.body.imageUrl;
